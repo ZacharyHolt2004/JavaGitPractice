@@ -1,4 +1,4 @@
-public class SportCar implements CarInterface{
+public class SportCar extends Vehicle{
     int weight;
     int topSpeed;
 

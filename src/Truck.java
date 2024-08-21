@@ -1,4 +1,4 @@
-public class Truck implements CarInterface {
+public class Truck extends Vehicle {
     int weight;
     int topSpeed;
 
