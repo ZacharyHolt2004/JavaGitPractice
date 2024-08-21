@@ -1,4 +1,11 @@
 import java.util.Scanner;
+
+/**
+ * In this demo, the abstraction is in the driveTheTrack() method.
+ * The abstraction I decided to use is in regard to the time to complete the track.
+ * Depending on which sibling class is chosen, a different time will be given.
+ * This time is only dependent on class type and not any calculations or if-statements.
+ */
 public class Demo {
     public static void main(String[] args){
         Vehicle polymorphicVar;
