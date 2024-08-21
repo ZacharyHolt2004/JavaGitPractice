@@ -7,6 +7,7 @@ public class Truck extends Vehicle {
         topSpeed = speed;
     }
 
+    //Overwritten abstract method.
     public void driveTheTrack(){
         System.out.println("Truck is " + this.weight + " pounds\n" +
                 "and has a top speed of " + this.topSpeed + "." +
